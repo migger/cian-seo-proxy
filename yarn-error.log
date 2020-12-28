@@ -1,0 +1,41 @@
+Arguments: 
+  /home/migger/.nvm/versions/node/v15.0.1/bin/node /home/migger/.nvm/versions/node/v15.0.1/bin/yarn add --dev jest transperent-proxy
+
+PATH: 
+  /home/migger/yandex-cloud/bin:/home/migger/.poetry/bin:/usr/local/opt/curl-openssl/bin:/usr/local/opt/openssl/bin:/home/migger/.pyenv/shims:/home/migger/.pyenv/plugins/pyenv-virtualenv/shims:/home/migger/.pyenv/shims:/home/migger/.pyenv/bin:/home/migger/.nvm/versions/node/v15.0.1/bin:/home/migger/WebstormProjects/lliga/components/untitled/node_modules/.bin:/home/migger/.poetry/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/migger/.dotnet/tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.0.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/transperent-proxy: Not found
+      at Request.params.callback [as _callback] (/home/migger/.nvm/versions/node/v15.0.1/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/migger/.nvm/versions/node/v15.0.1/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:327:20)
+      at Request.<anonymous> (/home/migger/.nvm/versions/node/v15.0.1/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:327:20)
+      at IncomingMessage.<anonymous> (/home/migger/.nvm/versions/node/v15.0.1/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:433:28)
+      at IncomingMessage.emit (node:events:339:22)
+      at endReadableNT (node:internal/streams/readable:1289:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "untitled",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
